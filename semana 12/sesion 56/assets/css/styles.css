@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Playwrite+PE:wght@100..400&display=swap');
+body {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+.container{
+    display: grid ;
+    /*grid-template-columns: 100px 100px 100px+*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    /* grid-template-columns: repeat(3,4fr 3fr 3fr); /*primero el numero de veces que lo repita y luego el valor de las medidad*/
+    /*column-gap: 5px; /*separacion entre columnas*/
+    /*row-gap: 5px; /*separacion entre espacios superiores e inferiores*/
+    grid-template-columns: repeat(1,1000px) auto;
+
+}
+.container > div {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ea38a3;
+    font-family: "Playwrite PE", system-ui;
+    /*height: 50px;*/
+}
+.expande{
+    grid-column: span 6; /*expande el tamaño de esta columna 6 veces el tamaño de los demas*/
+}
+.ultimo{
+    grid-column: span 2;
+}
