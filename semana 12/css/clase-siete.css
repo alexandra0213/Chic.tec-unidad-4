@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/02/56/58/0256584f45ff5fe87e862eee456edcac.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
+    text-overflow: unset;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+.encabezado {
+    font-size: larger
+
+}
+.caja {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.tarea {
+    background-color: pink;
+}
